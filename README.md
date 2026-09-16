@@ -93,3 +93,7 @@ Free for non-commercial use only.
 
 Albert Vik — AlbertVik@ukr.net  
 Build: #2510301
+
+## Screenshot
+
+![SRC Joseph W3 GUI](Dev/Screenshot.png)
