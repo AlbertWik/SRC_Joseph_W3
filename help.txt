@@ -1,0 +1,51 @@
+SRC Joseph W3 (#0912311 rebuild #1301251)
+Usage: src_joseph_w3.exe [[option]...] <input file> <output file>
+
+Options:
+
+    -pcms8     : force the output to signed 8 bit pcm
+    -pcmu8     : force the output to unsigned 8 bit pcm
+    -pcm16     : force the output to 16 bit pcm
+    -pcm24     : force the output to 24 bit pcm
+    -pcm32     : force the output to 32 bit pcm
+    -float32   : force the output to 32 bit floating point
+    -ulaw      : force the output ULAW
+    -alaw      : force the output ALAW
+    -ima-adpcm : force the output to IMA ADPCM (WAV only)
+    -ms-adpcm  : force the output to MS ADPCM (WAV only)
+    -gsm610    : force the GSM6.10 (WAV only)
+    -dwvw12    : force the output to 12 bit DWVW (AIFF only)
+    -dwvw16    : force the output to 16 bit DWVW (AIFF only)
+    -dwvw24    : force the output to 24 bit DWVW (AIFF only)
+
+    -sr<number>: target samplerate (for example: -sr96000)
+
+    -resample  : cause resample to target samplerate (to -sr)
+
+    -noclean   : temp files for each channel is not removed
+
+The output format is determined by the extension of the output file name:
+    aif        : AIFF (Apple/SGI)
+    wav        : WAV (Microsoft)
+    au         : AU (Sun/NeXT)
+    caf        : CAF (Apple Core Audio File)
+    flac       : FLAC (FLAC Lossless Audio Codec)
+    snd        : AU (Sun/NeXT)
+    svx        : IFF (Amiga IFF/SVX8/SV16)
+    paf        : PAF (Ensoniq PARIS)
+    fap        : PAF (Ensoniq PARIS)
+    gsm        : RAW (header-less)
+    nist       : WAV (NIST Sphere)
+    ircam      : SF (Berkeley/IRCAM/CARL)
+    sf         : SF (Berkeley/IRCAM/CARL)
+    voc        : VOC (Creative Labs)
+    w64        : W64 (SoundFoundry WAVE 64)
+    raw        : RAW (header-less)
+    mat4       : MAT4 (GNU Octave 2.0 / Matlab 4.2)
+    mat5       : MAT5 (GNU Octave 2.1 / Matlab 5.0)
+    mat        : MAT4 (GNU Octave 2.0 / Matlab 4.2)
+    pvf        : PVF (Portable Voice Format)
+    sds        : SDS (Midi Sample Dump Standard)
+    sd2        : SD2 (Sound Designer II)
+    vox        : RAW (header-less)
+    xi         : XI (FastTracker 2)
