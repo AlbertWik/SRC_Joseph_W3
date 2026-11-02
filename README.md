@@ -19,25 +19,25 @@
   - GSM 6.10 (WAV only)
   - DWVW 12/16/24-bit (AIFF only)
 - Two modes of operation:
-  - **Command-line** (`src_joseph_w3.exe`) — for scripting and automation
-  - **GUI** (`src_joseph_w3_GUI.exe`) — drag-and-drop visual interface
+  - **Command-line** (`src_joseph_w3.exe`) -- for scripting and automation
+  - **GUI** (`src_joseph_w3_GUI.exe`) -- drag-and-drop visual interface
 
 ## Repository Layout
 
 ```
 SRC_Joseph_W3/
-├── src_joseph_w3.exe          # Command-line resampler (C)
-├── src_joseph_w3_GUI.exe      # GUI wrapper (Python + Tkinter)
-├── libsndfile-1.dll           # Audio I/O library (LGPL v2.1+)
-├── readme.txt                 # Quick reference
-├── help.txt                   # Full CLI option reference
-├── src_joseph_w3_GUI.xml      # GUI configuration
-└── Dev/
-    ├── src_joseph_w3_GUI.py   # GUI source code
-    ├── make_exe.bat           # PyInstaller build script
-    ├── requirements.txt       # Python dependencies
-    ├── src_joseph_w3_GUI.png  # Banner/logo image
-    └── src_joseph_w3_GUI.ico  # Application icon
+     src_joseph_w3.exe           # Command-line resampler (C)
+     src_joseph_w3_GUI.exe       # GUI wrapper (Python + Tkinter)
+     libsndfile-1.dll            # Audio I/O library (LGPL v2.1+)
+     readme.txt                  # Quick reference
+     help.txt                    # Full CLI option reference
+     src_joseph_w3_GUI.xml       # GUI configuration
+     Dev/
+          src_joseph_w3_GUI.py   # GUI source code
+          make_exe.bat           # PyInstaller build script
+          requirements.txt       # Python dependencies
+          src_joseph_w3_GUI.png  # Banner/logo image
+          src_joseph_w3_GUI.ico  # Application icon
 ```
 
 ## Usage
@@ -80,9 +80,9 @@ make_exe.bat
 
 ## Dependencies
 
-- [libsndfile](https://github.com/libsndfile/libsndfile) — audio file read/write
-- [Pillow](https://python-pillow.org/) — image handling for the GUI
-- [tkinterdnd2](https://github.com/pmgagne/tkinterdnd2) — drag-and-drop support for Tkinter
+- [libsndfile](https://github.com/libsndfile/libsndfile) -- audio file read/write
+- [Pillow](https://python-pillow.org/) -- image handling for the GUI
+- [tkinterdnd2](https://github.com/pmgagne/tkinterdnd2) -- drag-and-drop support for Tkinter
 
 ## License
 
@@ -91,7 +91,7 @@ Free for non-commercial use only.
 
 ## Author
 
-Albert Vik — AlbertVik@ukr.net  
+Albert Vik -- AlbertVik@ukr.net  
 Build: #2510301
 
 ## Screenshot
